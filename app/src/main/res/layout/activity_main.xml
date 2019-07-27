@@ -106,14 +106,14 @@
                         android:textStyle="bold" />
 
                     <Button
-                        android:id="@+id/disLikeButton"
+                        android:id="@+id/dislikeButton"
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_marginLeft="20dp"
                         android:background="@drawable/ic_thumb_down" />
 
                     <TextView
-                        android:id="@+id/disLikeCountView"
+                        android:id="@+id/dislikeCountView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
 
@@ -401,10 +401,12 @@
             android:orientation="vertical">
 
             <ListView
+                android:id="@+id/listView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="250dp" />
 
             <Button
+                android:id="@+id/show_all"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
